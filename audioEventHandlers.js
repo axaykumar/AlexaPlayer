@@ -1,8 +1,8 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
-var audioData = require('./audioAssets');
-var constants = require('./constants');
+var audioData = require('audioAssets');
+var constants = require('constants');
 
 // Binding audio handlers to PLAY_MODE State since they are expected only in this mode.
 var audioEventHandlers = Alexa.CreateStateHandler(constants.states.PLAY_MODE, {
