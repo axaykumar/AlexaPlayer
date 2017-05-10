@@ -1,8 +1,8 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
-var audioData = require('./audioAssets');
-var constants = require('./constants');
+var audioData = require('audioAssets');
+var constants = require('constants');
 
 var stateHandlers = {
     startModeIntentHandlers : Alexa.CreateStateHandler(constants.states.START_MODE, {
