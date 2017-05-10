@@ -1,0 +1,15 @@
+{
+  "name": "audio_player",
+  "version": "0.0.1",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "alexa-nodekit": "^1.0.2",
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "nforce": "^1.2.0",
+	"alexa-sdk": "^1.0.4",
+    "sfdc-oauth-amazon-express": "*"
+  }
+}
